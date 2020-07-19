@@ -1,0 +1,15 @@
+{
+  "name": "dumpster-fire",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+
+  "workspaces": [
+    "packages/*"
+  ],
+
+  "scripts": {
+    "start:service-manager": "yarn workspace @dumpster-fire/service-manager start:dev"
+  }
+}

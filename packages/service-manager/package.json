@@ -1,0 +1,27 @@
+{
+  "name": "@dumpster-fire/service-manager",
+  "version": "0.1.0",
+  "scripts": {
+    "start": "node dist/main.ts",
+    "start:dev": "ts-node src/main.ts",
+    "build": "tsc -b ."
+  },
+  "dependencies": {
+    "@dumpster-fire/common": "^0.1.0",
+    "@nestjs/bull": "^0.1.2",
+    "@nestjs/common": "^7.3.2",
+    "@nestjs/core": "^7.3.2",
+    "@nestjs/microservices": "^7.3.2",
+    "@types/dotenv": "^8.2.0",
+    "bull": "^3.16.0",
+    "dotenv": "^8.2.0",
+    "redis": "^3.0.2",
+    "reflect-metadata": "^0.1.13",
+    "rxjs": "^6.6.0",
+    "ts-node": "^8.10.2"
+  },
+  "devDependencies": {
+    "@types/bull": "^3.14.0",
+    "@types/node": "^14.0.23"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "name": "@dumpster-fire/service-wikitext-parser",
+  "version": "0.1.0",
+  "description": "Microservice that parses wikitext using wtf_wikitext",
+  "main": "dist/main.js",
+  "license": "MIT",
+  "dependencies": {
+    "@dumpster-fire/common": "^0.1.0",
+    "@nestjs/bull": "^0.1.2",
+    "@nestjs/common": "^7.3.2",
+    "@nestjs/core": "^7.3.2",
+    "@nestjs/microservices": "^7.3.2",
+    "@types/bull": "^3.14.0",
+    "@types/dotenv": "^8.2.0",
+    "bull": "^3.16.0",
+    "dotenv": "^8.2.0",
+    "redis": "^3.0.2",
+    "reflect-metadata": "^0.1.13",
+    "rxjs": "^6.6.0",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.7",
+    "wtf_wikipedia": "^8.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "^14.0.23",
+    "@types/node-expat": "^2.3.1"
+  },
+  "scripts": {
+    "start": "node dist/main.js",
+    "start:dev": "ts-node src/main.ts",
+    "build": "tsc"
+  }
+}

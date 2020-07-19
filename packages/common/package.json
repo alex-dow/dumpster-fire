@@ -1,0 +1,21 @@
+{
+  "name": "@dumpster-fire/common",
+  "version": "0.1.0",
+  "description": "Microservice that parses wikitext using wtf_wikitext",
+  "main": "src/index.ts",
+  "license": "MIT",
+  "dependencies": {
+    "@types/docopt": "^0.6.31",
+    "docopt": "^0.6.2",
+    "reflect-metadata": "^0.1.13",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.7"
+  },
+  "devDependencies": {
+    "@types/node": "^14.0.23",
+    "npm-run-all": "^4.1.5"
+  },
+  "scripts": {
+    "build": "tsc"
+  }
+}
