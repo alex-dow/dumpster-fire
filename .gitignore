@@ -38,6 +38,9 @@ bower_components
 build/Release
 
 # Dependency directories
+.history
+packages/*/.history
+packages/*/node_modules
 node_modules/
 jspm_packages/
 
